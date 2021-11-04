@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import Navbar from './navbar/Navbar';
+import Title from './title/Title';
+import Shop from './shopArea/Shop';
+import Banner from './banner/Banner';
 import './App.css';
+
+import eye from './img/eye.png';
+import knife from './img/knife.png';
+import pumpkin from './img/pumpkin.png';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Title />
+      <Banner />
+      <div className="shopContaier">
+        <Shop img={eye} name= "eye" price= "$69.9"/> 
+        <Shop img={knife} name= "hi" price= "$24"/> 
+        <Shop img={pumpkin} name= "hi" price= "$24"/> 
+        <Shop img={pumpkin} name= "hi" price= "$24"/> 
+      </div>
     </div>
   );
 }

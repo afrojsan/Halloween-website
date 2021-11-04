@@ -1,0 +1,96 @@
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.ghost {
+  font-size: 2rem;
+}
+
+.logoText {
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.logo:hover {
+  color: rgb(15, 15, 15);
+}
+
+.userFunction {
+  flex-direction: column;
+}
+
+.user {
+  font-size: 2rem;
+  cursor: pointer;
+  padding-right: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.user:hover {
+  color: rgb(15, 15, 15);
+}
+
+.cartArrowDown {
+  font-size: 2rem;
+  cursor: pointer;
+  padding-right: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.cartArrowDown:hover {
+  color: rgb(15, 15, 15);
+}
+
+.mobileUserFunction {
+  font-size: 2rem;
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .userFunction {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 7%;
+    right: -100%;
+    background-color: rgb(255, 255, 255, 0.4);
+    height: 250px;
+    width: 150px;
+    transition: 0.5s;
+  }
+
+  .user {
+    margin-left: 30px;
+  }
+
+  .cartArrowDown {
+    margin-left: 30px;
+  }
+
+  .mobileUserFunction {
+    display: block;
+  }
+
+  .bars {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .times {
+    display: none;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+}
