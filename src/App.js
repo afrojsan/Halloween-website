@@ -10,14 +10,27 @@ import pumpkin from './img/pumpkin.png';
 
 
 function App() {
+
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+  document.body.classList.add("resize-animation-stopper");
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    document.body.classList.remove("resize-animation-stopper");
+  }, 400);
+});
+
+
   return (
     <div className="App">
       <Navbar />
       <Title />
       <Banner />
       <div className="shopContaier">
-        <Shop img={eye} name= "eye" price= "$69.9"/> 
-        <Shop img={knife} name= "hi" price= "$24"/> 
+        <Shop img={eye} name= "Eye" price= "$69.9"/> 
+        <Shop img={knife} name= "Knife" price= "$24"/> 
+        <Shop img={pumpkin} name= "hi" price= "$24"/> 
+        <Shop img={pumpkin} name= "hi" price= "$24"/> 
         <Shop img={pumpkin} name= "hi" price= "$24"/> 
         <Shop img={pumpkin} name= "hi" price= "$24"/> 
       </div>

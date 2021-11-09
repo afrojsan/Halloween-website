@@ -1,5 +1,7 @@
 import './Shop.css';
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 function Shop(props) {
 
@@ -7,25 +9,29 @@ function Shop(props) {
 
     function add() {
         setCount(count + 1)
-    }
+    };
 
     function subtract() {
-        setCount(count - 1)
-    }
+        if(count > 0){
+            setCount(count - 1)
+        }
+    };
+
+    
 
     return(
-        <div>
+        <div className="productContainer" id='productContainer'>
             <div className="imgContainer">
-                <img src={props.img} alt=""></img>
+                <img src={props.img} alt="" ></img>
             </div>
-            <p>{props.name}</p>
-            <p>{props.price}</p>
-            <div>
-                <button onClick={add}>+</button>
-                <p>{count}</p>
+            <p className='name'>{props.name}</p>
+            <p className='price'>{props.price}</p>
+            <div className="productButton">
                 <button onClick={subtract}>-</button>
+                <p>{count}</p>
+                <button onClick={add}>+</button>
             </div>
-            <button></button>
+                <FontAwesomeIcon className='cart' icon={faShoppingCart}></FontAwesomeIcon>
         </div>
     )
 }

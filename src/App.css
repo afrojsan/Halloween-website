@@ -2,13 +2,19 @@ html {
   font-size: 18px;
   font-family: "Irish Grover", cursive;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+  padding: 0;
   background-image: linear-gradient(to left, #330136, #5e1742);
   color: rgb(243, 243, 243);
+  overflow-x: hidden;
+}
+
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
 }
 
 .shopContaier {
