@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/Halloween-website/static/css/main.552c0261.chunk.css",
-    "main.js": "/Halloween-website/static/js/main.ce5ef248.chunk.js",
-    "main.js.map": "/Halloween-website/static/js/main.ce5ef248.chunk.js.map",
+    "main.css": "/Halloween-website/static/css/main.b36c6dfe.chunk.css",
+    "main.js": "/Halloween-website/static/js/main.14c54667.chunk.js",
+    "main.js.map": "/Halloween-website/static/js/main.14c54667.chunk.js.map",
     "runtime-main.js": "/Halloween-website/static/js/runtime-main.ae1e694b.js",
     "runtime-main.js.map": "/Halloween-website/static/js/runtime-main.ae1e694b.js.map",
-    "static/js/2.3688527e.chunk.js": "/Halloween-website/static/js/2.3688527e.chunk.js",
-    "static/js/2.3688527e.chunk.js.map": "/Halloween-website/static/js/2.3688527e.chunk.js.map",
+    "static/js/2.0b147a6e.chunk.js": "/Halloween-website/static/js/2.0b147a6e.chunk.js",
+    "static/js/2.0b147a6e.chunk.js.map": "/Halloween-website/static/js/2.0b147a6e.chunk.js.map",
     "index.html": "/Halloween-website/index.html",
-    "static/css/main.552c0261.chunk.css.map": "/Halloween-website/static/css/main.552c0261.chunk.css.map",
-    "static/js/2.3688527e.chunk.js.LICENSE.txt": "/Halloween-website/static/js/2.3688527e.chunk.js.LICENSE.txt",
+    "static/css/main.b36c6dfe.chunk.css.map": "/Halloween-website/static/css/main.b36c6dfe.chunk.css.map",
+    "static/js/2.0b147a6e.chunk.js.LICENSE.txt": "/Halloween-website/static/js/2.0b147a6e.chunk.js.LICENSE.txt",
     "static/media/banner.ccc22b34.jpg": "/Halloween-website/static/media/banner.ccc22b34.jpg",
     "static/media/banner3.49d4860e.jpg": "/Halloween-website/static/media/banner3.49d4860e.jpg",
+    "static/media/boiler.125ba21a.png": "/Halloween-website/static/media/boiler.125ba21a.png",
     "static/media/book.a63f7d3c.png": "/Halloween-website/static/media/book.a63f7d3c.png",
+    "static/media/candle.ce352dd2.png": "/Halloween-website/static/media/candle.ce352dd2.png",
     "static/media/eye.da963b99.png": "/Halloween-website/static/media/eye.da963b99.png",
+    "static/media/hat.b53d80c6.png": "/Halloween-website/static/media/hat.b53d80c6.png",
     "static/media/knife.894ab23a.png": "/Halloween-website/static/media/knife.894ab23a.png",
     "static/media/moon.d8f4e914.png": "/Halloween-website/static/media/moon.d8f4e914.png",
-    "static/media/pumpkin.9fd672ca.png": "/Halloween-website/static/media/pumpkin.9fd672ca.png"
+    "static/media/pumpkin.9fd672ca.png": "/Halloween-website/static/media/pumpkin.9fd672ca.png",
+    "static/media/skull.b1ab8372.png": "/Halloween-website/static/media/skull.b1ab8372.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae1e694b.js",
-    "static/js/2.3688527e.chunk.js",
-    "static/css/main.552c0261.chunk.css",
-    "static/js/main.ce5ef248.chunk.js"
+    "static/js/2.0b147a6e.chunk.js",
+    "static/css/main.b36c6dfe.chunk.css",
+    "static/js/main.14c54667.chunk.js"
   ]
 }
