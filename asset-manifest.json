@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Halloween-website/static/css/main.b36c6dfe.chunk.css",
-    "main.js": "/Halloween-website/static/js/main.b60770db.chunk.js",
-    "main.js.map": "/Halloween-website/static/js/main.b60770db.chunk.js.map",
+    "main.js": "/Halloween-website/static/js/main.14c54667.chunk.js",
+    "main.js.map": "/Halloween-website/static/js/main.14c54667.chunk.js.map",
     "runtime-main.js": "/Halloween-website/static/js/runtime-main.ae1e694b.js",
     "runtime-main.js.map": "/Halloween-website/static/js/runtime-main.ae1e694b.js.map",
     "static/js/2.0b147a6e.chunk.js": "/Halloween-website/static/js/2.0b147a6e.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.ae1e694b.js",
     "static/js/2.0b147a6e.chunk.js",
     "static/css/main.b36c6dfe.chunk.css",
-    "static/js/main.b60770db.chunk.js"
+    "static/js/main.14c54667.chunk.js"
   ]
 }
