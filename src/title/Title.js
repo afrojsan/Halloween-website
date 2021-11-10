@@ -1,7 +1,10 @@
 import halloweenTitleImage from '../img/pumpkin.png';
 import './Title.css';
+import React from 'react';
+
 
 function Title() {
+
 
     return(
         <div className='title__Container' >
@@ -14,9 +17,7 @@ function Title() {
                     <span className='titleConect'>let's have some fun</span>
                 </div>
                 <div className='titleButton__Container'>
-                    <a href='#productContainer'>
-                        <button className='titleButton'>Shop Now!!</button>
-                    </a> 
+                    <button className='titleButton'>Shop Now!!</button>
                 </div>
             </div>
 

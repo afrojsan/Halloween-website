@@ -1,11 +1,11 @@
 .productContainer {
   text-align: center;
-  width: 250px;
+  width: 350px;
+  height: 350px;
   padding: 20px 0 10px 0;
   background-color: rgb(250, 250, 250, 0.1);
   border-radius: 20px;
-  margin: 10px 20px 10px 20px;
-  height: 350px;
+  margin: 10px;
 }
 
 .imgContainer {
@@ -56,4 +56,73 @@
   font-size: 1.6rem;
   color: rgb(255, 108, 40, 0.849);
   cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .cart {
+    right: -70px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .productContainer {
+    margin: 5px;
+  }
+  .cart {
+    right: -120px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .productContainer {
+    width: 220px;
+    height: 320px;
+    margin: 10px;
+  }
+
+  .cart {
+    top: -30px;
+    right: -90px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .productContainer {
+    width: 150px;
+    height: 250px;
+    margin: 5px;
+  }
+
+  .product {
+    padding-top: 20px;
+  }
+
+  .imgContainer {
+    height: 70px;
+  }
+
+  .imgContainer img {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .price {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .cart {
+    top: -10px;
+    left: 50px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .productContainer {
+    width: 150px;
+    height: 250px;
+    margin: 5px 0px;
+  }
 }

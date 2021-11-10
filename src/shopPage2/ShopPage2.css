@@ -1,0 +1,27 @@
+.shopContaier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
+}
+
+.shopContaier img {
+  width: 100px;
+}
+
+@media screen and (max-width: 1050px) {
+  .shopContaier {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 920px) {
+}
+
+@media screen and (max-width: 570px) {
+  .shopContaier {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 5%;
+  }
+}

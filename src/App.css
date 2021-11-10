@@ -16,14 +16,3 @@ body {
   animation: none !important;
   transition: none !important;
 }
-
-.shopContaier {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 0 10%;
-}
-
-.shopContaier img {
-  width: 100px;
-}

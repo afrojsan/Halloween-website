@@ -1,18 +1,14 @@
+import React from 'react';
 import Navbar from './navbar/Navbar';
-import Title from './title/Title';
-import Shop from './shopArea/Shop';
-import Banner from './banner/Banner';
+import Home from './home/Home'
+import Footer from './footer/Footer';
+import Login from './login/Login';
 import './App.css';
 
-import eye from './img/eye.png';
-import knife from './img/knife.png';
-import pumpkin from './img/pumpkin.png';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-
-function App() {
-
-  let resizeTimer;
-  window.addEventListener("resize", () => {
+let resizeTimer;
+window.addEventListener("resize", () => {
   document.body.classList.add("resize-animation-stopper");
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
@@ -21,21 +17,18 @@ function App() {
 });
 
 
+function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Title />
-      <Banner />
-      <div className="shopContaier">
-        <Shop img={eye} name= "Eye" price= "$69.9"/> 
-        <Shop img={knife} name= "Knife" price= "$24"/> 
-        <Shop img={pumpkin} name= "hi" price= "$24"/> 
-        <Shop img={pumpkin} name= "hi" price= "$24"/> 
-        <Shop img={pumpkin} name= "hi" price= "$24"/> 
-        <Shop img={pumpkin} name= "hi" price= "$24"/> 
-      </div>
-    </div>
+      <Router>
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/login" component={Login} />
+          </Switch>
+          <Footer />  
+      </Router>
   );
 }
 
 export default App;
+ 

@@ -12,24 +12,31 @@
   margin-left: 50px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
-}
-
-.ghost {
-  font-size: 2rem;
+  text-decoration-line: none;
+  font-family: "Mohave", sans-serif;
 }
 
 .logoText {
   margin-left: 10px;
   font-size: 2rem;
+  color: white;
 }
 
 .logo:hover {
   color: rgb(15, 15, 15);
 }
 
+.ghost {
+  font-size: 2rem;
+}
+
 .userFunction {
   flex-direction: column;
   width: 20%;
+}
+
+.svg-inline--fa {
+  color: white;
 }
 
 .user {

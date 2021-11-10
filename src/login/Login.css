@@ -1,0 +1,50 @@
+.login {
+  font-family: "Mohave", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 108, 40, 0.849);
+}
+
+.loginArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  border: 3px black solid;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+.loginArea input {
+  margin: 20px;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  color: rgb(255, 108, 40);
+}
+
+.loginAC input {
+  margin-left: 30px;
+}
+
+.LoginBtn {
+  margin: 20px;
+}
+
+.LoginBtn button {
+  width: 90px;
+  height: 35px;
+  margin: 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.LoginBtn button:hover {
+  background-color: rgb(255, 108, 40, 0.849);
+  color: black;
+}
