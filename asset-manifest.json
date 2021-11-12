@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Halloween-website/static/css/main.f4809bfa.chunk.css",
-    "main.js": "/Halloween-website/static/js/main.3f3985d1.chunk.js",
-    "main.js.map": "/Halloween-website/static/js/main.3f3985d1.chunk.js.map",
+    "main.css": "/Halloween-website/static/css/main.2573304b.chunk.css",
+    "main.js": "/Halloween-website/static/js/main.bfea981f.chunk.js",
+    "main.js.map": "/Halloween-website/static/js/main.bfea981f.chunk.js.map",
     "runtime-main.js": "/Halloween-website/static/js/runtime-main.ae1e694b.js",
     "runtime-main.js.map": "/Halloween-website/static/js/runtime-main.ae1e694b.js.map",
     "static/js/2.8301a38d.chunk.js": "/Halloween-website/static/js/2.8301a38d.chunk.js",
     "static/js/2.8301a38d.chunk.js.map": "/Halloween-website/static/js/2.8301a38d.chunk.js.map",
     "index.html": "/Halloween-website/index.html",
-    "static/css/main.f4809bfa.chunk.css.map": "/Halloween-website/static/css/main.f4809bfa.chunk.css.map",
+    "static/css/main.2573304b.chunk.css.map": "/Halloween-website/static/css/main.2573304b.chunk.css.map",
     "static/js/2.8301a38d.chunk.js.LICENSE.txt": "/Halloween-website/static/js/2.8301a38d.chunk.js.LICENSE.txt",
     "static/media/banner.ccc22b34.jpg": "/Halloween-website/static/media/banner.ccc22b34.jpg",
     "static/media/banner3.49d4860e.jpg": "/Halloween-website/static/media/banner3.49d4860e.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae1e694b.js",
     "static/js/2.8301a38d.chunk.js",
-    "static/css/main.f4809bfa.chunk.css",
-    "static/js/main.3f3985d1.chunk.js"
+    "static/css/main.2573304b.chunk.css",
+    "static/js/main.bfea981f.chunk.js"
   ]
 }
