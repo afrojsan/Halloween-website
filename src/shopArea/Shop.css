@@ -27,34 +27,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.5rem;
 }
 
 .productButton button {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 10rem;
+  height: 2rem;
   font-size: 1rem;
   margin: 10px;
-  border-radius: 50%;
-  background-color: rgb(255, 108, 40, 0.849);
-  color: white;
+  border-radius: 20px;
+  background-color: rgb(245, 245, 245);
+  color: rgb(255, 108, 40, 0.849);
   border-color: darkblue;
-}
-
-.productButton p {
-  width: 20px;
-}
-
-.cart {
-  font-size: 1.4rem;
-  position: relative;
-  right: -90px;
-  top: -15px;
   transition: 0.2s;
 }
 
-.cart:hover {
-  font-size: 1.6rem;
-  color: rgb(255, 108, 40, 0.849);
+.productButton button:hover {
+  font-size: 1.1rem;
+  color: rgb(245, 245, 245);
+  background-color: rgb(255, 108, 40, 0.849);
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {

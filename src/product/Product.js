@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Product() {
     return(
         <div className='btnContainer'>
-            <Link to='/'>
+            <Link to='/Halloween-website/'>
                 <button>1</button>
             </Link>
             <Link to='/page2'>

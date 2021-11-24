@@ -1,39 +1,19 @@
 import './Shop.css';
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-
+import React from 'react';
 
 function Shop(props) {
-
-    const [count, setCount] = useState(0)
-
-    function add() {
-        setCount(count + 1)
-    };
-
-    function subtract() {
-        if(count > 0){
-            setCount(count - 1)
-        }
-    };
-
-    
-
-    return(
+    const { onAdd, product } = props;
+    return (
         <div className="productContainer" id='productContainer'>
             <div className='product'>
                 <div className="imgContainer">
-                    <img src={props.img} alt="" ></img>
+                    <img src={product.img} alt="" ></img>
                 </div>
-                <p className='name'>{props.name}</p>
-                <p className='price'>{props.price}</p>
+                <p className='name'>{product.name}</p>
+                <p className='price'>${product.price}</p>
                 <div className="productButton">
-                    <button onClick={subtract}>-</button>
-                    <p>{count}</p>
-                    <button onClick={add}>+</button>
+                    <button onClick={() => onAdd(product)}>Add to cart</button>
                 </div>
-                    <FontAwesomeIcon className='cart' icon={faShoppingCart}></FontAwesomeIcon>
             </div>
         </div>
     )

@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import Title from '../title/Title';
 import Banner from '../banner/Banner';
 import Product from '../product/Product';
@@ -10,25 +12,20 @@ import './Home.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
-
-function App() {
-    let resizeTimer;
-    window.addEventListener("resize", () => {
-    document.body.classList.add("resize-animation-stopper");
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => {
-        document.body.classList.remove("resize-animation-stopper");
-    }, 400);
-    });
-  
+function App(props) {
+  const {Data, onAdd} = props;
   return (
       <div className="App">
         <Router>
             <Title />
             <Banner />
             <Switch>
-                <Route path='/' exact component={ShopPage1} />
-                <Route path='/page2' component={ShopPage2} />
+                <Route path='/Halloween-website' exact>
+                  <ShopPage1 Data={Data} onAdd={onAdd} />
+                </Route>
+                <Route path='/page2'>
+                  <ShopPage2 Data={Data} onAdd={onAdd} />
+                </Route>
             </Switch>
             <Product />
             <Banner2 />

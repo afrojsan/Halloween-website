@@ -25,11 +25,17 @@ function Navbar() {
         document.querySelector('.times').style.display = 'none'
     };
 
+    function foo(obj) {
+        obj.disabled = true;
+        setTimeout(function() {
+            obj.disabled = false;
+        }, 2000);
+    }
 
     return(
-        <div className='navbar'>
-            <div className='logo'>
-                <Link to='/' className='logo'>
+        <div className='navbar' onClick={foo}>
+            <div className='logo' >
+                <Link to='/Halloween-website/' className='logo' >
                         <FontAwesomeIcon icon={faGhost} className='ghost'></FontAwesomeIcon>
                     <p className='logoText'>Halloween</p>
                 </Link>
@@ -38,7 +44,9 @@ function Navbar() {
                 <Link to='/login'>
                     <FontAwesomeIcon icon={faUser} className='user'></FontAwesomeIcon>
                 </Link>
-                <FontAwesomeIcon icon={faCartArrowDown} className='cartArrowDown'></FontAwesomeIcon>
+                <Link to='/cart'>
+                    <FontAwesomeIcon icon={faCartArrowDown} className='cartArrowDown'></FontAwesomeIcon>
+                </Link>
             </div>
             <div className='mobileUserFunction'>
                 <FontAwesomeIcon icon={faBars} className='bars' onClick={show}></FontAwesomeIcon>

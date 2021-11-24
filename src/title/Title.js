@@ -3,6 +3,7 @@ import './Title.css';
 import React from 'react';
 
 
+
 function Title() {
 
 
@@ -17,7 +18,9 @@ function Title() {
                     <span className='titleConect'>let's have some fun</span>
                 </div>
                 <div className='titleButton__Container'>
-                    <button className='titleButton'>Shop Now!!</button>
+                    <a href='#productContainer'>
+                        <button className='titleButton'>Shop Now!!</button>
+                    </a>
                 </div>
             </div>
 

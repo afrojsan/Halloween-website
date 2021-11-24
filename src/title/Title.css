@@ -4,6 +4,7 @@
   align-items: center;
   height: 700px;
   margin: 0 10%;
+  margin-top: 80px;
 }
 
 .titleImg__Container {
@@ -64,6 +65,7 @@
 
   .titleImg {
     width: 400px;
+    margin-top: 100px;
   }
 
   .title {
